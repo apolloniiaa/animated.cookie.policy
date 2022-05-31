@@ -43,6 +43,7 @@ button {
 }
 .cookie {
   transform: scale(0.7);
+  overflow: visible;
 }
 .cookie-subtitle {
   font-size: 0.7rem;
