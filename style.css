@@ -9,6 +9,7 @@
 body {
   height: 100%;
   font-family: monospace;
+  background: rgb(21 21 21);
 }
 h2 {
   font-family: 'Megrim', cursive;
@@ -23,6 +24,7 @@ button {
   font-size: 0.7rem;
   border-radius: 0.3rem;
   cursor: pointer;
+  background: rgba(21, 21, 21, 0.846);
 }
 
 .cookie-container {
