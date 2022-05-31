@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: monospace;
+}
+h2 {
+  font-family: 'Megrim', cursive;
+  font-size: 1.2rem;
+}
+button {
+  font-family: 'Megrim', cursive;
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+  color: #9b6c50;
+  font-size: 0.7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.cookie-container {
+  background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1.2rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+.cookie {
+  transform: scale(0.7);
+}
+.cookie-subtitle {
+  font-size: 0.7rem;
+  padding: 0.5rem 0rem;
+}
+.text {
+  width: 70%;
+}
